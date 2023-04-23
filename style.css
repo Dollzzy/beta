@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+body {
+    height: 100vh;
+    background-color: rgb(56, 56, 56);
+}
+.Principal-page {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(56, 56, 56);
+}
+.header-principal-page {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(90, 90, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-principal-page {
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(90, 90, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Website-name {
+    position: absolute;
+    left: 0px;
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn-zone-header-principal-page {
+    position: absolute;
+    right: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    gap: 5px;
+}
+.btn-search-PP {
+    position: absolute;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-menu-PP {
+    position: absolute;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgs-zone-pp {
+    position: absolute;
+    top: 55px;
+    width: 90%;
+    max-width: 500px;
+    height: 600px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-1 {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    height: 320px;
+    background-color: rgb(53,53,53);
+    background-image: url("img1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.img-circle-1 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-image: url("user.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.div-zone-1-1 {
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name-div-1 {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.descriere-div-1 {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    display: flex;
+    color: grey;
+    font-size: 18px;
+    justify-content: left;
+    align-items: center;
+}
+.menu-div-1 {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.menu-open-div-1 {
+    position: fixed;
+    bottom: 10px;
+    width: 90%;
+    max-width: 400px;
+    height: 160px;
+    background-color: rgb(42,42,42);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-open-div-1-blur {
+    position: fixed;
+    bottom: 10px;
+    width: 90%;
+    max-width: 400px;
+    height: 160px;
+    background-color: rgb(42,42,42);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-menu-open-div-1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.header-open-div-1-blur {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.close-menu-div-1 {
+    position: absolute;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.close-menu-div-11 {
+    position: absolute;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Bg-btn-blur {
+    position: absolute;
+    top: 50px;
+    width: 90%;
+    height: 40px;
+    background-color: rgb(53,53,53);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.596);
+    cursor: pointer;
+}
+#aaa {
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+    height: 40px;
+    background-color: rgb(53,53,53);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.596);
+    cursor: pointer;
+    text-decoration: none;
+}
+.main-div {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-div-open-1-blur {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inpBlur {
+    width: 90%;
+    height: 40px;
+    background-color: rgb(53,53,53);
+    border: 2px solid grey;
+    border-radius: 0;
+    outline: none;
+    color: white;
+}
+.save-btn-blur {
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+    height: 40px;
+    background-color: rgb(101, 101, 255);
+    border: 2px solid rgb(76, 77, 161);
+    border-radius: 0;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.507);
+}
+.betatxt {
+    position: absolute;
+    left: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(165, 107, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
